@@ -151,6 +151,23 @@
             <label for="phone">Phone:</label>
             <input type="tel" name="phone" id="phone" placeholder="9999999999" pattern="[0-9]{5}[0-9]{5}" required>
         </p>
+        <p>
+            <label for="decade">Favourite Decade:</label>
+            <input type="number" name="decade" id="decade" min="1980" max="2020" step="10" value="1980">
+        </p>
+        <p>
+            <label for="car">Favourite car:</label>
+            <select name="car" id="car">
+                <optgroup label="nissan">
+                <option value="nissan gtr">Nissan GTR</option>
+                <option value="nissan magnite">Nissan Magnite</option>
+            </optgroup>
+            <optgroup label="buggati">
+                <option value="buggati gtr" selected>Buggati GTR</option>
+                <option value="buggati bolide">Buggati Bolide</option>
+            </optgroup>
+            </select>
+        </p>
         </form>
     </article>
 
