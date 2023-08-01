@@ -121,13 +121,38 @@
 
     <hr>
 
-    <section id="contact">
+    <section>
         <ul>
             <li>Download an <a href="icon.png" download>Icon</a></li>
             <li>Contact me at <a href="mailto:random@gmail.com">My Email</a></li>
             <li>Dial at <a href="tel:+8805685534">My Number</a></li>
         </ul>
     </section>
+
+    <hr>
+
+    <article  id="contact">
+        <h2>Contact Us!</h2>
+        
+        <form action="https://httpbin.org/get" method="get">
+        <p>
+            <label for="firstName">First Name:</label>
+            <input type="text" name="firstName" id="firstName" placeholder="john" autocomplete="on" required autofocus>
+        </p>
+        <p>
+            <label for="lastname">Last Name:</label>
+            <input type="text" name="lastName" id="lastName" placeholder="Doe" autocomplete="on" required>
+        </p>
+        <p>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" placeholder="Password" required>
+        </p>
+        <p>
+            <label for="phone">Phone:</label>
+            <input type="tel" name="phone" id="phone" placeholder="9999999999" pattern="[0-9]{5}[0-9]{5}" required>
+        </p>
+        </form>
+    </article>
 
     <hr>
 
